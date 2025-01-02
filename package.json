@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@kepler.gl/components": "^3.1.0-alpha.3",
+    "@kepler.gl/reducers": "^3.1.0-alpha.3",
+    "@reduxjs/toolkit": "^2.5.0",
+    "kepler.gl": "^3.0.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-palm": "^3.3.8",
+    "redux": "^5.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

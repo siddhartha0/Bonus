@@ -1,5 +1,6 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import keplerGlReducer from "@kepler.gl/reducers";
+// @ts-ignore
 import { taskMiddleware } from "react-palm/tasks";
 
 const reducer = combineReducers({

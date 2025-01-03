@@ -1,3 +1,4 @@
-declare module "kepler.gl";
-declare module "kepler.gl/actions";
-declare module "kepler.gl/reducers";
+// src/types/kepler-gl.d.ts
+declare module "kepler.gl/actions" {
+  export const addDataToMap: any;
+}
